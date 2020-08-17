@@ -1,0 +1,522 @@
+/*
+ Theme Name:   Expertempo
+ Theme URI:    https://www.designlabthemes.com/brilliant-plus-wordpress-theme/
+ Description:  Thème enfant de Brillant Plus pour Expertempo
+ Author:       Magalie Castaing
+ Author URI:   https://kasutan.pro/
+ Template:     brilliant-plus
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  expertempo
+*/
+
+:root {
+	--bleu1: #31738f;
+	--bleu2: #419abe;
+	--bleu3: #8dc2d8;
+	--bleu4: #b3d7e5;
+	--gris: #ecf5f9;
+	--turquoise :  #4dd2f5;
+	--vert : #367692;
+	--blanc : #fff;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/Gotham_Bold.otf');
+	font-display: swap;
+	font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.entry-title {
+
+	font-family: Gotham, Montserrat, sans-serif;
+
+}
+
+
+/**************************************************************
+				Header
+**************************************************************/
+.site-description {
+	display: none;
+}
+
+.header-image {
+	background-size: contain;
+	background-position: 90% center;
+}
+
+.bouton-bandeau {
+	background-color: #fff;
+	color: var(--bleu1);
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	z-index:2;
+}
+.bouton-bandeau:hover, .bouton-bandeau:focus {
+	background-color: var(--bleu1);
+	color:var(--blanc);
+	text-decoration:none;
+  transition: all 0.5s ease-in-out;
+	
+}
+@media screen and (min-width:600px) and (max-width:960px) {
+	p.site-logo {
+		max-width: calc(6.25rem + ((1vw - 6px) * 22.2222));
+	}
+}
+@media screen and (max-width:959px) {
+	.site-header .bouton-bandeau {
+	   display:none;
+	}
+	.bouton-bandeau-mobile {
+		  color:#000;
+			text-transform:uppercase;
+		  text-align:center;
+		  font-weight: bold;
+		  min-width: calc(100vw - 80px);
+		  display: inline-block;
+		  height: 100%;
+		  line-height: 40px;
+	}
+	.bouton-bandeau-mobile:hover, .bouton-bandeau-mobile:focus {
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width:768px) {
+
+	.header-image {
+		padding: 0;
+	}
+	.site-title-centered .site-title {
+		margin-left: 10%;
+	}
+	.site-header .social-links {
+		text-align:left;
+		padding-left:10%;
+	}
+
+	
+}
+
+
+
+.js-sticky-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+}
+
+/**************************************************************
+				Cacher titre page accueil
+				sauf pour les lecteurs d'écran
+**************************************************************/
+.home article.type-page>.entry-header {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+/**************************************************************
+				3 liens encadrés
+**************************************************************/
+.intro {
+	font-size: 1.2rem;
+}
+.trois-encadres {
+	margin-bottom: 30px;
+	overflow-x: hidden;
+	position: relative;
+}
+.trois-encadres .slider {
+	justify-content: flex-start;
+	flex-wrap:nowrap;
+	overflow-x:scroll;
+	position: relative;
+}
+
+.trois-encadres button.fleche-slider {
+	background-color:transparent;
+	border:none;
+	height:40px;
+	padding:0;
+	position: absolute;
+	top:calc(50% - 20px);
+	width:40px;
+	left:0px;
+}
+.trois-encadres button.fleche-slider.droite {
+	left:unset;
+	right:0px;
+}
+
+.encadre-wrapper {
+	display: block;
+	margin-bottom: 20px;
+	overflow:hidden;
+	flex-basis:300px;
+	flex-grow:1;
+	flex-shrink:0;
+	width:unset;
+	max-width:80vw;
+}
+
+.encadre-wrapper img {
+	height:100%;
+	transition:transform 0.2s ease-in-out;
+}
+
+.encadre-wrapper:hover img, .encadre-wrapper:focus img {
+	transform:scale(1.02);
+}
+
+.encadre {
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 100%;
+	width:calc(100% - 30px);
+	height: 100%;
+}
+
+.cadre {
+	align-items: center;
+	border: solid 1px var(--blanc);
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	padding: 15px;
+}
+
+.texte-encadre {
+	background-color: var(--blanc);
+	color: var(--bleu1);
+	font-size:16px;
+	font-weight: 700;
+	padding: 2px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.5s ease-in-out;
+}
+
+.texte-encadre:hover {
+	background-color: var(--bleu2);
+	color: var(--blanc);
+}
+
+@media (max-width:767px) {
+	/*carrousel pleine largeur en mobile*/
+	.trois-encadres {
+		width: 100vw;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	}
+	.trois-encadres .row {
+		margin:0;
+	}
+	.encadre-wrapper {
+		padding:0;
+		max-width:unset;
+		width:calc(100vw - 20px);
+		flex-basis:calc(100vw - 20px);
+	}
+}
+
+@media (min-width: 768px) {
+	.encadre-wrapper {
+		min-width:320px;
+	}
+	.intro {
+		font-size: 1.4rem
+	}
+	a.texte-encadre {
+		margin-top:-5px;
+	}
+	.fleche-slider {
+		display: none;
+	}
+	.trois-encadres .slider {
+		overflow-x:auto;
+	}
+}
+
+@media (min-width: 1500px) {
+	.intro {
+		font-size: 1.6rem;
+	}
+}
+
+
+/**************************************************************
+				MailPoet
+**************************************************************/
+
+#mailpoet_form_1 .mailpoet_validate_success {
+	color: var(--bleu1) !important;
+	line-height: 1.2;
+}
+
+.single-mailpoet_page .related-posts {
+	display: none;
+}
+
+#mailpoet_form_1 .mailpoet_form {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#mailpoet_form_1 .mailpoet_form>div:first-of-type {
+	flex-grow: 1;
+	margin-right: 10px;
+
+}
+
+#mailpoet_form_1 input[type="email"] {
+	width: 100%;
+}
+
+#mailpoet_form_1 .mailpoet_message {
+	flex-basis: 100%;
+	width: 100%;
+}
+
+/**************************************************************
+				Taille grande image accueil
+**************************************************************/
+@media screen and (min-width:960px) {
+	body.page .page .large-post .entry-thumbnail img {
+		max-width:600px;
+	}
+	.large-post .entry-summary {
+		max-width:600px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+/**************************************************************
+				Divers
+**************************************************************/
+.wp-block-columns {
+	margin-bottom: 50px;
+}
+
+.wp-block-columns.align-center {
+	align-items: center;
+}
+
+.wp-block-columns.align-center p {
+	margin-bottom: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.large-post .read-more {
+	border-radius: 0;
+}
+.alignleft, .alignright {
+	margin-top:10px;
+}
+.blocks-gallery-grid, .wp-block-gallery {
+	justify-content: center;
+}
+
+.blocks-gallery-grid .blocks-gallery-image figure, .blocks-gallery-grid .blocks-gallery-item figure, .wp-block-gallery .blocks-gallery-image figure, .wp-block-gallery .blocks-gallery-item figure {
+	justify-content: center;
+	align-items:center;
+	height:auto;
+}
+/**************************************************************
+				Footer
+**************************************************************/
+.footer-copy .col-6 {
+	align-items: center;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/**************************************************************
+				Icone TikTok
+**************************************************************/
+
+.social-menu a[href*="tiktok"] {
+	background-image: url('inc/tiktok.svg');
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.social-menu a[href*="tiktok"]::before {
+	content: "";
+}
+
+.site-footer .social-menu a[href*="tiktok"] {
+	background-image: url('inc/tiktok_gris.svg');
+	background-size: 80%;
+	background-position: center 60%;
+	height: 30px;
+	width: 18px;
+}
+
+/**************************************************************
+				Collège de médecins
+**************************************************************/
+.medecin {
+	align-items: center;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	margin-bottom:20px;
+}
+.medecin .texte {
+	max-width:500px;
+	text-align: center;
+}
+.medecin .images {
+	margin-bottom:20px;
+	display: flex;
+	align-items:center;
+}
+.medecin img {
+	box-sizing: border-box;
+	margin:0 10px;
+	max-width:155px;
+	max-width:calc(50% - 20px);
+}
+.medecin .texte {
+	flex-grow:1;
+}
+.medecin .nom {
+	color:var(--bleu1);
+}
+.medecin .specialite {
+	color:var(--bleu2);
+	font-weight: bold;;
+	margin-bottom:0;
+}
+@media screen and (min-width:768px) {
+	.medecin {
+		flex-direction: row;
+		margin-bottom:20px;
+	}
+	.medecin .texte {
+		flex-grow:1;
+		max-width:unset;
+		text-align: left;
+	}
+	.medecin .images {
+		flex-basis:300px;
+		flex-shrink:0;
+		padding-right:20px;
+	}
+	.medecin:nth-of-type(2n) {
+		flex-direction:row-reverse;
+	}
+
+	.medecin:nth-of-type(2n) .images {
+		transform: rotateY(180deg);
+	}
+
+}
+@media screen and (min-width:960px) {
+	.medecin .images {
+		flex-basis:350px;
+	}
+}
+
+/**************************************************************
+				Archive
+**************************************************************/
+h1.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	display: block;
+	line-height: 1.75;
+	text-transform: unset;
+	margin-bottom: 20px;
+}
+.taxonomy-description {
+	color:#222;
+	display: block;
+	font-size:18px;
+	max-width:760px;
+	margin:1rem auto 40px;
+	text-align:left;
+}
+.taxonomy-description::after {
+	clear: both;
+}
+
+/**************************************************************
+				Logos partenaires
+**************************************************************/
+body {
+	overflow-x:hidden;
+}
+.partenaires {
+	margin-top:100px;
+	padding:40px 0;
+	width: 100vw;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+.partenaires figure {
+	padding:0 10px;
+}
+
+/**************************************************************
+				Formulaire Caldera
+**************************************************************/
+.caldera-grid {
+	margin-bottom:2rem;
+}
+.caldera-grid input[type="text"],
+.caldera-grid input[type="email"],
+.caldera-grid textarea {
+	border-color:var(--bleu1);
+	margin-bottom:20px;
+	width:100%;
+}
+.caldera-grid label {
+	font-size:1rem;
+}
+.caldera-grid .alert-success {
+	border: solid 1px var(--vert);
+	padding:10px;
+}
+
+.wp-block-social-links li.wp-social-link {
+	background-color:var(--vert) !important;
+}
+
+/**************************************************************
+				Réduire taille image en vedette single
+**************************************************************/
+body.single .post .entry-thumbnail, body.page .page .entry-thumbnail {
+	max-width: 60%;
+}
