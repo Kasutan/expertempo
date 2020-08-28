@@ -1,0 +1,1530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-12 20:11+0000\n"
+"PO-Revision-Date: 2020-08-28 18:00+0200\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+
+#. %s: post title
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Une réponse à &ldquo;%s&rdquo;"
+
+#. 1: number of comments, 2: post title
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s réponse à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+
+#: comments.php:54 comments.php:76
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: comments.php:57 comments.php:79
+msgid "Older Comments"
+msgstr "Commentaires précédents"
+
+#: comments.php:58 comments.php:80
+msgid "Newer Comments"
+msgstr "Commentaires suivants"
+
+#: comments.php:93
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: search.php:30 template-parts/content-none.php:19
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: search.php:55 template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Nous n'avons pas trouvé de contenu ici. Voulez-vous essayer une recherche ?"
+
+#: footer.php:55 functions.php:49
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:47 template-parts/header/logo-centered.php:36
+#: template-parts/header/logo-left.php:31
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:48 template-parts/top-navbar.php:25
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Small"
+msgstr ""
+
+#: functions.php:85 inc/customizer.php:351
+msgid "Normal"
+msgstr ""
+
+#: functions.php:90
+msgid "Large"
+msgstr ""
+
+#: functions.php:95
+msgid "Huge"
+msgstr ""
+
+#: functions.php:105
+msgid "Black"
+msgstr ""
+
+#: functions.php:110
+msgid "Dark Gray"
+msgstr ""
+
+#: functions.php:115
+msgid "Medium Gray"
+msgstr ""
+
+#: functions.php:120
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:125
+msgid "White"
+msgstr ""
+
+#: functions.php:130
+msgid "Accent Color"
+msgstr ""
+
+#: functions.php:153
+msgctxt "Headings Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:159
+msgctxt "Text Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:165
+msgctxt "Meta Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:173
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""
+
+#. To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: functions.php:180
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:246
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:248
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:255
+msgid "Footer Widget Area - Left"
+msgstr ""
+
+#: functions.php:257 functions.php:266 functions.php:275
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:264
+msgid "Footer Widget Area - Center"
+msgstr ""
+
+#: functions.php:273
+msgid "Footer Widget Area - Right"
+msgstr ""
+
+#: functions.php:284
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:286
+msgid "Add widgets here to appear in your Shop."
+msgstr ""
+
+#: functions.php:439
+msgid "Read More"
+msgstr ""
+
+#: functions.php:538
+msgid "Y"
+msgstr ""
+
+#: functions.php:549
+msgid "Home"
+msgstr ""
+
+#: functions.php:567
+msgid "Archive by category"
+msgstr ""
+
+#: functions.php:643
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:647
+msgid "Posts tagged"
+msgstr ""
+
+#: functions.php:655
+msgid "Articles posted by "
+msgstr ""
+
+#: functions.php:665 inc/customizer.php:149
+msgid "Page"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Aller directement au contenu"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Rechercher :"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Recherche..."
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "Rechercher"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Cette page est introuvable."
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "\v"
+
+#. %1$s: smiley
+#: 404.php:37
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez une recherche dans les archives mensuelles. %1$s"
+
+#: updater/theme-updater.php:30 inc/getting_started.php:42
+msgid "Theme License"
+msgstr ""
+
+#: updater/theme-updater.php:31
+msgid "Enter your theme license key."
+msgstr ""
+
+#: updater/theme-updater.php:32
+msgid "License Key"
+msgstr ""
+
+#: updater/theme-updater.php:33
+msgid "License Action"
+msgstr ""
+
+#: updater/theme-updater.php:34
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/theme-updater.php:35
+msgid "Activate License"
+msgstr ""
+
+#: updater/theme-updater.php:36 updater/theme-updater.php:49
+msgid "License status is unknown."
+msgstr ""
+
+#: updater/theme-updater.php:37
+msgid "Renew?"
+msgstr ""
+
+#: updater/theme-updater.php:38
+msgid "unlimited"
+msgstr ""
+
+#: updater/theme-updater.php:39
+msgid "License key is active."
+msgstr ""
+
+#: updater/theme-updater.php:40
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: updater/theme-updater.php:41
+msgid "Lifetime License."
+msgstr ""
+
+#: updater/theme-updater.php:42
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: updater/theme-updater.php:43
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: updater/theme-updater.php:44
+msgid "License key has expired."
+msgstr ""
+
+#: updater/theme-updater.php:45
+msgid "License keys do not match."
+msgstr ""
+
+#: updater/theme-updater.php:46
+msgid "License is inactive."
+msgstr ""
+
+#: updater/theme-updater.php:47
+msgid "License key is disabled."
+msgstr ""
+
+#: updater/theme-updater.php:48
+msgid "Site is inactive."
+msgstr ""
+
+#: updater/theme-updater.php:50
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: updater/theme-updater.php:51
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+
+#: updater/theme-updater-admin.php:276 updater/theme-updater-admin.php:330
+#: updater/theme-updater-admin.php:383
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: updater/theme-updater-admin.php:296
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: updater/theme-updater-admin.php:304
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: updater/theme-updater-admin.php:309
+msgid "Invalid license."
+msgstr ""
+
+#: updater/theme-updater-admin.php:315
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: updater/theme-updater-admin.php:320
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: updater/theme-updater-admin.php:325
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: template-parts/content-single.php:39 template-parts/content.php:36
+#: template-parts/content-page.php:36 page-templates/homepage.php:41
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:27
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/top-navbar.php:14
+msgid "Menu"
+msgstr ""
+
+#: template-parts/top-navbar.php:41 template-parts/header/logo-centered.php:50
+#: template-parts/header/logo-left.php:45
+msgid "Checkout"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/content-page.php:47 inc/template-tags.php:129
+#: page-templates/homepage.php:52
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: template-parts/slider.php:61 template-parts/slider.php:146
+#: inc/widgets/widget-profile.php:148
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: template-parts/slider.php:74
+msgid "There are no pages available to display."
+msgstr ""
+
+#: template-parts/slider.php:76
+#, php-format
+msgid "These pages can be set in the <a href=\"%s\">customizer</a>."
+msgstr ""
+
+#: template-parts/related-posts.php:45
+msgid "You may also like:"
+msgstr "Les articles suivants pourraient aussi vous intéresser :"
+
+#: template-parts/related-posts.php:66
+msgid "No related posts found"
+msgstr "Aucun article associé n'a été trouvé"
+
+#: template-parts/author-bio.php:20
+msgid "Author:"
+msgstr ""
+
+#: template-parts/author-bio.php:24
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publié le"
+
+#: inc/template-tags.php:43
+msgid "by"
+msgstr "par"
+
+#: inc/template-tags.php:59 inc/template-tags.php:86
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:109
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: inc/template-tags.php:115
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Etiqueté %1$s"
+
+#. %s: post title
+#: inc/template-tags.php:122
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Ecrire un commentaire <span class=\"screen-reader-text\"> sur %s</span>"
+
+#: inc/getting_started.php:28
+msgid "Getting started"
+msgstr ""
+
+#: inc/getting_started.php:33
+#, php-format
+msgid "Thanks for purchasing %s Theme!"
+msgstr ""
+
+#: inc/getting_started.php:44
+msgid ""
+"Activate your license key to get one-click theme updates and premium support."
+msgstr ""
+
+#: inc/getting_started.php:48
+#, php-format
+msgid ""
+"You can find your Theme license in the Purchase Receipt or you can <a href="
+"\"%s\" target=\"_blank\">log in to your Design Lab account</a> and go to "
+"\"My Account &raquo; License Keys\" page."
+msgstr ""
+
+#: inc/getting_started.php:52
+msgid "Activate Theme License"
+msgstr ""
+
+#: inc/getting_started.php:58
+msgid "Documentation"
+msgstr ""
+
+#: inc/getting_started.php:61
+#, php-format
+msgid ""
+"Follow our <a href=\"%s\" target=\"_blank\">documentation</a> to get your "
+"new theme set up."
+msgstr ""
+
+#: inc/getting_started.php:67
+#, php-format
+msgid ""
+"Optionally, you may <a href=\"%s\" target=\"_blank\">install our demo "
+"content</a> to give you a head start in setting up your site."
+msgstr ""
+
+#: inc/getting_started.php:71
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/getting_started.php:78
+msgid "Support Ticket"
+msgstr ""
+
+#: inc/getting_started.php:79
+msgid "Have a problem? We are here to help with direct and personal support!"
+msgstr ""
+
+#: inc/getting_started.php:82
+#, php-format
+msgid ""
+"Perhaps you have encountered a common issue or have a quick question: please "
+"<a href=\"%s\" target=\"_blank\">visit our FAQs</a>"
+msgstr ""
+
+#: inc/getting_started.php:87
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: inc/customizer.php:72 inc/widgets/widget-recent-posts.php:133
+msgid "All categories"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Brilliant Settings"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Homepage Template"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:95 inc/customizer.php:164 inc/customizer.php:206
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Main Theme Settings."
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Settings for Site Header."
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Post Slider"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Display Post Slider at the top of the Homepage."
+msgstr ""
+
+#. Name of the template
+#: inc/customizer.php:128
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Settings for Blog Homepage."
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Categories & Archives"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Settings for Category, Tag, Search and Archive Pages."
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "Post"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Settings for Single Post."
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Settings for Static Page."
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/customizer.php:157
+msgid ""
+"WooCommerce Settings. Cart, Checkout and Account are standard pages. To hide "
+"the sidebar apply the Full width Template to the page."
+msgstr ""
+
+#: inc/customizer.php:165
+msgid ""
+"To display the Homepage Template edit your Static Front Page (the page used "
+"as the Homepage) and apply the Homepage template to this page."
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Hero"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Featured Content"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "About us"
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Services"
+msgstr ""
+
+#: inc/customizer.php:190
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Latest Products"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Latest News"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Brilliant Links"
+msgstr ""
+
+#: inc/customizer.php:234 inc/customizer.php:704
+msgid "Display Date"
+msgstr ""
+
+#: inc/customizer.php:245 inc/customizer.php:715
+msgid "Display Author"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Display Read More Link"
+msgstr ""
+
+#: inc/customizer.php:267
+msgid "Display Scroll Up button"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Navigation style"
+msgstr ""
+
+#: inc/customizer.php:282
+msgid "Next/Prev Navigation"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "Numeric Pagination"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Footer Tagline"
+msgstr ""
+
+#: inc/customizer.php:293
+msgid ""
+"Add a Custom Text in the Footer. HTML tags are allowed: strong, em, b, i, "
+"br, a."
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Enable Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Uncheck this option to disable Google Fonts and use System Fonts."
+msgstr ""
+
+#: inc/customizer.php:318
+msgid "Site Title Font"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "This option overrides Title Font option."
+msgstr ""
+
+#: inc/customizer.php:333
+msgid "Title Font"
+msgstr ""
+
+#: inc/customizer.php:334
+msgid "Applies to the Post title and all Headings (h1,h2,h3,..)"
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "Title Style"
+msgstr ""
+
+#: inc/customizer.php:352
+msgid "Bold"
+msgstr ""
+
+#: inc/customizer.php:362
+msgid "Text Font"
+msgstr ""
+
+#: inc/customizer.php:363
+msgid "Applies to the Body text."
+msgstr ""
+
+#: inc/customizer.php:377
+msgid "Meta Font"
+msgstr ""
+
+#: inc/customizer.php:378
+msgid "Applies to date, author, category and tags."
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Text Font Size"
+msgstr ""
+
+#: inc/customizer.php:393
+msgid ""
+"Adjust the Body Font size. All other font sizes are calculated automatically "
+"from this value."
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "Logo Size"
+msgstr ""
+
+#: inc/customizer.php:415
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "Resize"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid "Logo Max Width (desktop)"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Logo Max Width (mobile)"
+msgstr ""
+
+#: inc/customizer.php:452
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "1: Site Title on the left and Nav on the right"
+msgstr ""
+
+#: inc/customizer.php:457
+msgid "2: Site Title on the left and Custom Content on the right"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "3: Site Title centered and Nav below"
+msgstr ""
+
+#: inc/customizer.php:459
+msgid "4: Site Title centered"
+msgstr ""
+
+#: inc/customizer.php:468
+msgid "Header Custom Content"
+msgstr ""
+
+#: inc/customizer.php:479
+msgid "Phone:"
+msgstr ""
+
+#: inc/customizer.php:491
+msgid "Email:"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "Custom Text"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Header Top bar"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Display Header Top bar"
+msgstr ""
+
+#: inc/customizer.php:526
+msgid ""
+"To Display Header Top bar create a new menu and assign it to the Top Menu "
+"location."
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:542 inc/customizer.php:579
+msgid "Large Posts + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:543 inc/customizer.php:580
+msgid "Grid Posts + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:544 inc/customizer.php:581
+msgid "List Posts + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "First Overlay Post then Large + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:546
+msgid "First Overlay Post then Grid + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:547
+msgid "First Overlay Post then List + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:548
+msgid "First Overlay Post then Grid"
+msgstr ""
+
+#: inc/customizer.php:549 inc/customizer.php:582
+msgid "Grid: Two Columns"
+msgstr ""
+
+#: inc/customizer.php:550 inc/customizer.php:583
+msgid "Grid: Three Columns"
+msgstr ""
+
+#: inc/customizer.php:551
+msgid "First Large Post then Grid + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:552
+msgid "First Large Post then List + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:553
+msgid "Large Posts Full Content + Sidebar"
+msgstr ""
+
+#: inc/customizer.php:563 inc/customizer.php:593 inc/customizer.php:1586
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:575
+msgid "Archives Layout"
+msgstr ""
+
+#: inc/customizer.php:604 inc/customizer.php:738 inc/customizer.php:834
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:605
+msgid "Add breadcrumbs at the top of the Archive pages."
+msgstr ""
+
+#: inc/customizer.php:615
+msgid "Display Archive breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:630 inc/customizer.php:764
+msgid "Default Theme breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:631 inc/customizer.php:765
+msgid "Yoast SEO breadcrumbs (Yoast SEO 2.3 or higher is required)"
+msgstr ""
+
+#: inc/customizer.php:640 inc/customizer.php:796
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer.php:641 inc/customizer.php:797
+msgid "Full width images must be at least 1160px"
+msgstr ""
+
+#: inc/customizer.php:651 inc/customizer.php:807
+msgid "Display Featured Image"
+msgstr ""
+
+#: inc/customizer.php:662 inc/customizer.php:818
+msgid "Select style:"
+msgstr ""
+
+#: inc/customizer.php:666 inc/customizer.php:822 inc/customizer.php:895
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer.php:667 inc/customizer.php:823
+msgid "Cover Image"
+msgstr ""
+
+#: inc/customizer.php:679
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "Sidebar Options for Single Posts."
+msgstr ""
+
+#: inc/customizer.php:684 inc/customizer.php:971 inc/customizer.php:987
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:685 inc/customizer.php:972 inc/customizer.php:988
+msgid "No Sidebar Full width"
+msgstr ""
+
+#: inc/customizer.php:694
+msgid "Post Options"
+msgstr ""
+
+#: inc/customizer.php:726
+msgid "Display Author Bio at the bottom of the post"
+msgstr ""
+
+#: inc/customizer.php:727
+msgid "To add Author Bio go to Users &raquo; Your Profile."
+msgstr ""
+
+#: inc/customizer.php:739
+msgid "Add breadcrumbs at the top of the Post."
+msgstr ""
+
+#: inc/customizer.php:749
+msgid "Display Post breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:774
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer.php:775
+msgid "Add Related Posts at the bottom of the post."
+msgstr ""
+
+#: inc/customizer.php:785
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/customizer.php:835
+msgid "Add breadcrumbs at the top of the Page."
+msgstr ""
+
+#: inc/customizer.php:845
+msgid "Display Page breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:858
+msgid "Display Slider on Blog Homepage"
+msgstr ""
+
+#: inc/customizer.php:869
+msgid "Display Slider on Static Homepage"
+msgstr ""
+
+#: inc/customizer.php:880
+msgid "Hide Slider on Homepage Paged Results"
+msgstr ""
+
+#: inc/customizer.php:891
+msgid "Slider Style"
+msgstr ""
+
+#: inc/customizer.php:896
+msgid "Carousel"
+msgstr ""
+
+#: inc/customizer.php:906
+msgid "Slider Content"
+msgstr ""
+
+#: inc/customizer.php:910
+msgid "Posts"
+msgstr ""
+
+#: inc/customizer.php:911
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer.php:923
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer.php:940
+msgid "Select a Category"
+msgstr ""
+
+#: inc/customizer.php:941
+msgid "Filter Posts by category"
+msgstr ""
+
+#: inc/customizer.php:953
+msgid "Number of Posts to display"
+msgstr ""
+
+#: inc/customizer.php:966
+msgid "Shop and Product Category"
+msgstr ""
+
+#: inc/customizer.php:967
+msgid "Sidebar options for Shop and Product Category."
+msgstr ""
+
+#: inc/customizer.php:982
+msgid "Page Product"
+msgstr ""
+
+#: inc/customizer.php:983
+msgid "Sidebar options for Page Product."
+msgstr ""
+
+#: inc/customizer.php:997
+msgid "Cart Link"
+msgstr ""
+
+#: inc/customizer.php:1008
+msgid "Display Cart Link in the Main Menu"
+msgstr ""
+
+#: inc/customizer.php:1019
+msgid "Display Cart Link in the Header Top bar"
+msgstr ""
+
+#: inc/customizer.php:1030
+msgid "Buttons background color"
+msgstr ""
+
+#: inc/customizer.php:1031
+msgid "Applies to Add to cart and Checkout buttons."
+msgstr ""
+
+#: inc/customizer.php:1041
+msgid "Price color"
+msgstr ""
+
+#: inc/customizer.php:1052
+msgid "Display Page Title"
+msgstr ""
+
+#: inc/customizer.php:1053
+msgid "Display the Title of the Page used as the Homepage"
+msgstr ""
+
+#: inc/customizer.php:1064
+msgid "Display Page Content"
+msgstr ""
+
+#: inc/customizer.php:1065
+msgid "Display the Content of the Page used as the Homepage"
+msgstr ""
+
+#: inc/customizer.php:1078
+msgid "Display Hero Section"
+msgstr ""
+
+#: inc/customizer.php:1089 inc/customizer.php:1294 inc/customizer.php:1516
+#: inc/customizer.php:1575 inc/widgets/widget-image.php:75
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:1100 inc/customizer.php:1305 inc/customizer.php:1661
+#: inc/widgets/widget-image.php:127
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:1111 inc/customizer.php:1527
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer.php:1122 inc/customizer.php:1538
+msgid "Button URL"
+msgstr ""
+
+#: inc/customizer.php:1132
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:1142
+msgid "Background Image Max Height"
+msgstr ""
+
+#: inc/customizer.php:1143
+msgid "Optional Max Height"
+msgstr ""
+
+#: inc/customizer.php:1154
+msgid "Background Image Overlay"
+msgstr ""
+
+#: inc/customizer.php:1155
+msgid ""
+"Add a dark overlay to the Header Image, to ensure the right text readability "
+"and contrast."
+msgstr ""
+
+#: inc/customizer.php:1175
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer.php:1185
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:1195
+msgid "Button Background color"
+msgstr ""
+
+#: inc/customizer.php:1206
+msgid "Display Featured Content"
+msgstr ""
+
+#: inc/customizer.php:1207
+msgid "Add three Images, with Title and custom link."
+msgstr ""
+
+#: inc/customizer.php:1218 inc/customizer.php:1382 inc/customizer.php:1456
+msgid "Main Title"
+msgstr ""
+
+#: inc/customizer.php:1231
+msgid "Image #"
+msgstr ""
+
+#: inc/customizer.php:1232 inc/customizer.php:1338
+msgid "Upload image"
+msgstr ""
+
+#: inc/customizer.php:1243
+msgid "Link Text #"
+msgstr ""
+
+#: inc/customizer.php:1254
+msgid "Link URL #"
+msgstr ""
+
+#: inc/customizer.php:1268
+msgid "Display About us Section"
+msgstr ""
+
+#: inc/customizer.php:1279
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer.php:1283
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:1284
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:1316 inc/widgets/widget-image.php:123
+msgid "Link Text"
+msgstr ""
+
+#: inc/customizer.php:1327
+msgid "Link URL"
+msgstr ""
+
+#: inc/customizer.php:1337
+msgid "Image"
+msgstr ""
+
+#: inc/customizer.php:1350
+msgid "Display Services Section"
+msgstr ""
+
+#: inc/customizer.php:1351
+msgid "Add three Services, with Title, icon, text and custom link."
+msgstr ""
+
+#: inc/customizer.php:1362
+msgid "Icon color"
+msgstr ""
+
+#: inc/customizer.php:1372
+msgid "Icon Background color"
+msgstr ""
+
+#: inc/customizer.php:1395
+msgid "Service Title"
+msgstr ""
+
+#: inc/customizer.php:1406
+msgid "Service Icon"
+msgstr ""
+
+#: inc/customizer.php:1407
+msgid ""
+"Select an optional icon. See theme documentation for full list of supported "
+"icons."
+msgstr ""
+
+#: inc/customizer.php:1418
+msgid "Service Text"
+msgstr ""
+
+#: inc/customizer.php:1429
+msgid "Service Link URL"
+msgstr ""
+
+#: inc/customizer.php:1430
+msgid "Add an optional link to the Title."
+msgstr ""
+
+#: inc/customizer.php:1444
+msgid "Display Testimonials Section"
+msgstr ""
+
+#: inc/customizer.php:1445
+msgid "Add up to five Testimonials, with name, image and quote."
+msgstr ""
+
+#: inc/customizer.php:1469
+msgid "Testimonial Name"
+msgstr ""
+
+#: inc/customizer.php:1480
+msgid "Testimonial Image"
+msgstr ""
+
+#: inc/customizer.php:1491
+msgid "Testimonial Quote"
+msgstr ""
+
+#: inc/customizer.php:1505
+msgid "Display Latest Products"
+msgstr ""
+
+#: inc/customizer.php:1522
+msgid "View Shop"
+msgstr ""
+
+#: inc/customizer.php:1550
+msgid "Display Latest News"
+msgstr ""
+
+#: inc/customizer.php:1561
+msgid "Post Layout"
+msgstr ""
+
+#: inc/customizer.php:1565
+msgid "List"
+msgstr ""
+
+#: inc/customizer.php:1566
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:1597
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/customizer.php:1613
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer.php:1625
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer.php:1637
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/customizer.php:1649
+msgid "Page/Post Title"
+msgstr ""
+
+#: inc/customizer.php:1673
+msgid "Main Menu background"
+msgstr ""
+
+#: inc/customizer.php:1685 inc/customizer.php:1710
+msgid "Main Menu Item"
+msgstr ""
+
+#: inc/customizer.php:1697 inc/customizer.php:1722
+msgid "Main Menu Item Hover"
+msgstr ""
+
+#: inc/customizer.php:1698 inc/customizer.php:1723
+msgid "This option overrides the Accent color."
+msgstr ""
+
+#: inc/customizer.php:1735
+msgid "Header Top bar background"
+msgstr ""
+
+#: inc/customizer.php:1747
+msgid "Footer background"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width, No Sidebar"
+msgstr ""
+
+#: template-parts/page/home-testimonials.php:59
+msgid "There are no Testimonials to display."
+msgstr ""
+
+#: inc/widgets/widget-social.php:18
+msgid "Add your social icons"
+msgstr ""
+
+#: inc/widgets/widget-social.php:125 inc/widgets/widget-facebook.php:92
+#: inc/widgets/widget-recent-posts.php:126 inc/widgets/widget-video.php:43
+#: inc/widgets/widget-profile.php:238
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:130 inc/widgets/widget-profile.php:299
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:135
+msgid "Twitter  URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:140
+msgid "Google+ URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:145 inc/widgets/widget-profile.php:311
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:150 inc/widgets/widget-profile.php:315
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:155 inc/widgets/widget-profile.php:319
+msgid "Pinterest URL:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:160
+msgid "YouTube URL:"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:20
+msgid "Display Facebook Like Box"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:98
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:100
+msgid "EG. https://www.facebook.com/envato"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:105
+msgid "Show Faces:"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:111
+msgid "Show Stream:"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:117
+msgid "Show Page Cover Image:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "Display a list of your most recent posts"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:131
+msgid "Filter by Category:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:150
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:165
+msgid "Show Excerpt:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:170
+msgid "Show Thumbnail:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:18
+msgid "Add a video to your sidebar"
+msgstr ""
+
+#: inc/widgets/widget-video.php:49
+msgid "Video URL "
+msgstr ""
+
+#: inc/widgets/widget-video.php:51
+msgid ""
+"Enter in a video URL that is compatible with WordPress's built-in oEmbed "
+"feature."
+msgstr ""
+
+#: inc/widgets/widget-video.php:51
+msgid "Learn More"
+msgstr ""
+
+#: inc/widgets/widget-video.php:56
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/widget-video.php:87
+msgid "You forgot to enter a video URL."
+msgstr ""
+
+#: inc/widgets/widget-image.php:18
+msgid "Add an image with optional text and link"
+msgstr ""
+
+#: inc/widgets/widget-image.php:111
+msgid "Image URL"
+msgstr ""
+
+#: inc/widgets/widget-image.php:114 inc/widgets/widget-profile.php:284
+msgid "Upload Image"
+msgstr ""
+
+#: inc/widgets/widget-image.php:118
+msgid "Link"
+msgstr ""
+
+#: inc/widgets/widget-image.php:120 inc/widgets/widget-profile.php:296
+msgid "http:// is required"
+msgstr ""
+
+#: inc/widgets/widget-image.php:132 inc/widgets/widget-profile.php:246
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:18
+msgid "Display your Profile"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:281
+msgid "Image:"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:287
+msgid "Select Image Size:"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:289
+msgid "Medium"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:290
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:294
+msgid "Link URL: (Optional)"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:303
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:307
+msgid "Google + URL:"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:323
+msgid "Youtube URL:"
+msgstr ""
+
+#. Name of the theme
+msgid "Brilliant Plus"
+msgstr ""
+
+#. Description of the theme
+msgid "Brilliant Plus is a beautiful and stylish WordPress blog theme."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.designlabthemes.com/brilliant-plus-wordpress-theme/"
+msgstr ""
+
+#. Author of the theme
+msgid "Design Lab"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.designlabthemes.com/"
+msgstr ""
