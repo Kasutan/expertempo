@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-12 20:11+0000\n"
-"PO-Revision-Date: 2020-08-28 18:00+0200\n"
+"PO-Revision-Date: 2020-09-19 10:33+0200\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: functions.php:439
 msgid "Read More"
-msgstr ""
+msgstr "Lire la suite"
 
 #: functions.php:538
 msgid "Y"
@@ -186,11 +186,11 @@ msgstr ""
 
 #: functions.php:549
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: functions.php:567
 msgid "Archive by category"
-msgstr ""
+msgstr "Articles dans la catégorie"
 
 #: functions.php:643
 msgid "Search results for"
