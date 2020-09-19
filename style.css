@@ -61,6 +61,11 @@
 .about-us-content p,.services-content p {
 	margin-bottom:10px;
 }
+.page-template-homepage .slick-track {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .temp-formulaire {
 	border:dashed 2px var(--vert);
 	font-style: italic;
