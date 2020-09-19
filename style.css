@@ -58,6 +58,9 @@
 .page-template-homepage .header-wrapper.header-centered .site-branding {
 	padding-bottom:0;
 }
+.about-us-content p,.services-content p {
+	margin-bottom:10px;
+}
 .temp-formulaire {
 	border:dashed 2px var(--vert);
 	font-style: italic;
