@@ -37,7 +37,7 @@ function exp_enqueue_styles() {
 /**
 * ******** ACF custom blocks
 */
-
+/*
 function exp_block_categories( $categories, $post ) {
 	return array_merge(
 		array(
@@ -50,7 +50,7 @@ function exp_block_categories( $categories, $post ) {
 		$categories
 	);
 }
-add_filter( 'block_categories', 'exp_block_categories', 10, 2 );
+add_filter( 'block_categories', 'exp_block_categories', 10, 2 );*/
 
 //require_once( 'inc/blocks/acf-block-articles-accueil.php' );
 
@@ -73,6 +73,19 @@ if( function_exists('acf_add_options_page') ) {
 	));
 	
 }
+
+/**
+* ******** Gutenberg patterns
+https://developer.wordpress.org/block-editor/developers/block-api/block-patterns/
+https://codebeautify.org/json-escape-unescape
+*/
+
+register_block_pattern_category(
+	'expertempo',
+	array( 'label' => 'Expertempo' )
+);
+
+require_once( 'inc/patterns/prestation.php' );
 
 /**
 * ******** Filtre titre pages archives

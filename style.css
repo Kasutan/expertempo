@@ -97,7 +97,7 @@ body {
 	padding:100px;
 }
 @media screen and (min-width:1000px) {
-	.wp-block-button__link {
+	.services-content .wp-block-button__link {
 		display: none;
 	}
 }
@@ -168,7 +168,7 @@ body {
 	font-size: 20px;
 }
 /**************************************************************
-				Divers
+				Blocks natifs
 **************************************************************/
 .wp-block-columns {
 	margin-bottom: 50px;
@@ -213,7 +213,67 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 	align-items:center;
 	height:auto;
 }
+/**************************************************************
+				Blocks patterns
+**************************************************************/
+.prestation {
+	border:solid 1px  rgba(42,157,143,0.2);
+	border-radius: 2px;
+	margin-bottom: 20px;
+	padding:0 0 10px;
+	width:85%;
+}
+.prestation:nth-of-type(2n+1) {
+	background-color:  rgba(42,157,143,0.1);
+}
 
+.prestation:nth-of-type(2n+1) h3 {
+	float:right;
+}
+.prestation:nth-of-type(2n) {
+	margin-left: 15%;
+}
+.prestation:last-of-type {
+	margin-bottom:50px;
+}
+.prestation h3 {
+	background-color: var(--vert-fonce);
+	color:var(--blanc);
+	display:inline-block;
+	font-size: 18px;
+	padding:5px 8px;
+}
+.prestation ul {
+	clear: both;
+	list-style:none;
+	padding-right:5px;
+}
+.prestation li {
+	position: relative;
+}
+.prestation li::before {
+	border: solid 3px var(--vert2);
+	border-radius: 50%;
+	content: '';
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: -23px;
+	top: 9px;
+	
+}
+
+@media screen and (min-width:900px) {
+	.prestation {
+		margin-bottom: -30px;
+		width:47%;
+	}
+	.prestation:nth-of-type(2n) {
+		margin-left: 50%;
+		margin-top: -100px;
+	}
+}
 /**************************************************************
 				Footer
 **************************************************************/
