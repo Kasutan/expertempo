@@ -70,6 +70,21 @@ body {
 .about-us-content p,.services-content p {
 	margin-bottom:10px;
 }
+.services-content h3 {
+	text-align: center;
+}
+.services-content a {
+	color:#444;
+	text-decoration: none;
+	transition:color var(--transition);
+}
+.services-content a h3 {
+	transition:color var(--transition);
+}
+.services-content a:hover, .services-content a:focus,
+.services-content a:hover h3, .services-content a:focus h3 {
+	color:var(--vert2);
+}
 .page-template-homepage .slick-track {
 	display: flex;
 	align-items: center;
