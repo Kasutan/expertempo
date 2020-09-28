@@ -15,6 +15,7 @@
 	--noir:#264653;
 	--bleu: #264653;
 	--bleu2: #2B596B;
+	--vert-fonce : #1A615E;
 	--vert : #2A9D8F;
 	--vert2 : #2A9D8F;
 	--vert-logo:#2EC4B6 ;
@@ -27,9 +28,13 @@
 	--rouge2:#EB775A;
 	--gris: #e2f7f5;
 	--blanc : #f2fbfa;
+
+	--transition:0.4s ease-in-out;
 }
 
-
+body {
+	overflow-x:hidden;
+}
 
 /**************************************************************
 				Header
@@ -45,6 +50,10 @@
 	z-index: 3;
 	width: 100%;
 }
+.top-navbar .home-icon {
+	display: none;
+}
+
 
 /**************************************************************
 				Accueil
@@ -91,7 +100,7 @@
 	left: 50%;
 	bottom: 0;
 	margin-left: -40px;
-	border-bottom: 2px solid #222;
+	border-bottom: 2px solid #fff;
 }
 .argument .wp-block-columns {
 	margin-bottom:0;
@@ -116,7 +125,7 @@
 	position: relative;
 }
 .argument li::before {
-	border: solid 3px var(--vert);
+	border: solid 3px #fff;
 	border-radius: 50%;
 	content: '';
 	display: block;
@@ -126,6 +135,17 @@
 	left: -23px;
 	top: 9px;
 	
+}
+/**************************************************************
+				Titres des pages internes
+**************************************************************/
+.single .hentry .entry-title span::before, .page .hentry .entry-title span::before {
+	border-bottom-color:var(--vert-fonce);
+}
+.page:not(.home) h2 {
+	color:var(--vert-fonce);
+	font-weight: 700;
+	font-size: 20px;
 }
 /**************************************************************
 				Divers
@@ -146,9 +166,18 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
+.wp-block-button__link,
 .large-post .read-more {
-	border-radius: 0;
+	border-radius: 5px;
 }
+a.wp-block-button__link {
+	transition:background var(--transition);
+}
+a.wp-block-button__link:hover, a.wp-block-button__link:focus {
+	background-color: var(--vert-fonce);
+	text-decoration: none;
+}
+
 .alignleft, .alignright {
 	margin-top:10px;
 }
