@@ -35,6 +35,9 @@
 						<div class="desc"><?php echo wp_kses_post( wpautop(get_theme_mod( 'services_text_' . $i )) ); ?></div>
 					<?php } ?>
 					<?php if( get_theme_mod( 'services_link_' . $i ) ) { ?></a><?php } ?>
+					<?php if( get_theme_mod( 'services_link_' . $i ) ) {
+						printf('<div class="wp-block-buttons aligncenter"><div class="wp-block-button"><a class="wp-block-button__link has-accent-background-color has-background" href="%s">En savoir plus</a></div></div>',get_theme_mod( 'services_link_' . $i ));
+					}?>
 				</div>
 			</div>
 			<?php endfor; ?>
