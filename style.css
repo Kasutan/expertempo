@@ -96,9 +96,15 @@ body {
 	margin:50px 0;
 	padding:100px;
 }
+.home .entry-footer {
+	display: none;
+}
 @media screen and (min-width:1000px) {
-	.services-content .wp-block-button__link {
+	.services-content .wp-block-buttons {
 		display: none;
+	}
+	.about-us {
+		margin-bottom:50px;
 	}
 }
 /**************************************************************
@@ -156,16 +162,43 @@ body {
 	top: 9px;
 	
 }
+
+/**************************************************************
+				Duree prestation
+**************************************************************/
+.duree-prestation h3 {
+	background-color: var(--vert2);
+	color:var(--blanc);
+	display:inline-block;
+	font-size: 18px;
+	padding:5px 8px;
+}
+@media screen and (min-width:900px) {
+	.duree-prestation h3, .duree-prestation p {
+		max-width:80%;
+	}
+	.duree-prestation h3:nth-of-type(2), .duree-prestation p:nth-of-type(2) {
+		margin-left:10%;
+	}
+	.duree-prestation h3:nth-of-type(3), .duree-prestation p:nth-of-type(3) {
+		margin-left:20%;
+	}
+}
+
+
 /**************************************************************
 				Titres des pages internes
 **************************************************************/
 .single .hentry .entry-title span::before, .page .hentry .entry-title span::before {
 	border-bottom-color:var(--vert-fonce);
 }
-.page:not(.home) h2 {
+.page h2 {
 	color:var(--vert-fonce);
 	font-weight: 700;
 	font-size: 20px;
+}
+.home.page h2 {
+	font-size: 1.75em;
 }
 /**************************************************************
 				Blocks natifs
