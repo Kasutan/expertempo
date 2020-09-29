@@ -10,7 +10,7 @@ register_block_pattern(
 		
 		'content'     => "<!-- wp:group {\"className\":\"prestation\"} -->\n<div class=\"wp-block-group prestation\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"level\":3} -->\n<h3>Titre</h3>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>Item 1</li><li>Item 2</li></ul>\n<!-- /wp:list --></div></div>\n<!-- /wp:group -->",
 		
-		'categories'  => array('header'),
+		'categories'  => array('expertempo'),
 	)
 );
 

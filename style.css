@@ -274,6 +274,42 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 		margin-top: -100px;
 	}
 }
+
+/* variante compétences avec seulement 2 items*/
+.competences .prestation h3 {
+	display: block;
+	float:none;
+	text-align: center;
+}
+
+@media screen and (min-width:900px) {
+	.competences > .wp-block-group__inner-container {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom:50px;
+	}
+	.competences .prestation {
+		flex-basis: 47%;
+		margin-bottom:0;
+		width:47%;
+	}
+	.competences .prestation:nth-of-type(2n) {
+		border-color:var(--vert-fonce);
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.competences .prestation:nth-of-type(2n) li::before {
+		border-color:var(--vert-fonce);
+
+	}
+	.competences .prestation:nth-of-type(2n+1) h3 {
+		background-color:var(--vert2);
+	}
+	.competences .prestation:last-of-type {
+		margin-bottom:0;
+	}
+}
+
 /**************************************************************
 				Footer
 **************************************************************/
