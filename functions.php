@@ -32,7 +32,10 @@ function exp_enqueue_styles() {
 	);*/
 
 }
-
+/**
+* Register color palette for Gutenberg editor.
+*/
+require get_stylesheet_directory() . '/inc/colors.php';
 
 /**
 * ******** ACF custom blocks

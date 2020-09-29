@@ -12,24 +12,50 @@
 */
 
 :root {
-	--noir:#264653;
-	--bleu: #264653;
-	--bleu2: #2B596B;
-	--vert-fonce : #1A615E;
-	--vert : #2A9D8F;
+	--vert1 : #1A615E;
 	--vert2 : #2A9D8F;
-	--vert-logo:#2EC4B6 ;
-	--jaune :#E9C464;
-	--jaune2:#ECC971;
-	--orange:#F4A261;
-	--orange2:#F6AA6C;
-	--orange-logo:#FF971C;
-	--rouge:#E76F51;
-	--rouge2:#EB775A;
-	--gris: #e2f7f5;
-	--blanc : #f2fbfa;
-
+	--vert3 : #e9f5f4;
+	--gris: #444;
+	--blanc : #ffffff;
+	--noir:#000;
 	--transition:0.4s ease-in-out;
+}
+
+.has-vert1-color {
+	color:var(--vert1);
+}
+.has-vert2-color {
+	color:var(--vert2);
+}
+.has-vert3-color {
+	color:var(--vert3);
+}
+.has-gris-color {
+	color:var(--gris);
+}
+.has-blanc-color {
+	color:var(--blanc);
+}
+.has-noir-color {
+	color:var(--noir);
+}
+.has-vert1-background-color {
+	background-color:var(--vert1);
+}
+.has-vert2-background-color {
+	background-color:var(--vert2);
+}
+.has-vert3-background-color {
+	background-color:var(--vert3);
+}
+.has-gris-background-color {
+	background-color:var(--gris);
+}
+.has-blanc-background-color {
+	background-color:var(--blanc);
+}
+.has-noir-background-color {
+	background-color:var(--noir);
 }
 
 body {
@@ -74,7 +100,7 @@ body {
 	text-align: center;
 }
 .services-content a {
-	color:#444;
+	color:var(--gris);
 	text-decoration: none;
 	transition:color var(--transition);
 }
@@ -91,7 +117,7 @@ body {
 	justify-content: center;
 }
 .temp-formulaire {
-	border:dashed 2px var(--vert);
+	border:dashed 2px var(--vert1);
 	font-style: italic;
 	margin:50px 0;
 	padding:100px;
@@ -126,7 +152,7 @@ body {
 	left: 50%;
 	bottom: 0;
 	margin-left: -40px;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid var(--blanc);
 }
 .argument .wp-block-columns {
 	margin-bottom:0;
@@ -137,13 +163,6 @@ body {
 	max-width:1000px;
 	padding:50px 20px;
 }
-.argument p {
-	color: black;
-	font-size:120%;
-	line-height: 1.2;
-	max-width: 600px;
-	margin: 1em auto;
-}
 .argument ul {
 	list-style:none;
 }
@@ -151,7 +170,7 @@ body {
 	position: relative;
 }
 .argument li::before {
-	border: solid 3px #fff;
+	border: solid 3px var(--blanc);
 	border-radius: 50%;
 	content: '';
 	display: block;
@@ -190,10 +209,10 @@ body {
 				Titres des pages internes
 **************************************************************/
 .single .hentry .entry-title span::before, .page .hentry .entry-title span::before {
-	border-bottom-color:var(--vert-fonce);
+	border-bottom-color:var(--vert1);
 }
 .page h2 {
-	color:var(--vert-fonce);
+	color:var(--vert1);
 	font-weight: 700;
 	font-size: 20px;
 }
@@ -229,7 +248,7 @@ a.wp-block-button__link {
 	transition:background var(--transition);
 }
 a.wp-block-button__link:hover, a.wp-block-button__link:focus {
-	background-color: var(--vert-fonce);
+	background-color: var(--vert1);
 	color:var(--blanc);
 	text-decoration: none;
 }
@@ -270,7 +289,7 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 	margin-bottom:50px;
 }
 .prestation h3 {
-	background-color: var(--vert-fonce);
+	background-color: var(--vert1);
 	color:var(--blanc);
 	display:inline-block;
 	font-size: 18px;
@@ -327,12 +346,12 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 		width:47%;
 	}
 	.competences .prestation:nth-of-type(2n) {
-		border-color:var(--vert-fonce);
+		border-color:var(--vert1);
 		margin-left: 0;
 		margin-top: 0;
 	}
 	.competences .prestation:nth-of-type(2n) li::before {
-		border-color:var(--vert-fonce);
+		border-color:var(--vert1);
 
 	}
 	.competences .prestation:nth-of-type(2n+1) h3 {
@@ -365,10 +384,10 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 	font-size:1rem;
 }
 .caldera-grid .alert-success {
-	border: solid 1px var(--vert);
+	border: solid 1px var(--vert1);
 	padding:10px;
 }
 
 .wp-block-social-links li.wp-social-link {
-	background-color:var(--vert) !important;
+	background-color:var(--vert1) !important;
 }
