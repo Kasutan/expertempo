@@ -116,15 +116,15 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-.temp-formulaire {
-	border:dashed 2px var(--vert1);
-	font-style: italic;
-	margin:50px 0;
-	padding:100px;
-}
 .home .entry-footer {
 	display: none;
 }
+
+/*Témoignages tronqués*/
+.home .slider-classic .slider-item {
+	max-height: unset;
+}
+
 @media screen and (min-width:1000px) {
 	.services-content .wp-block-buttons {
 		display: none;
@@ -365,6 +365,37 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 /**************************************************************
 				Footer
 **************************************************************/
+#footer-area-1 {
+	width:100%;
+}
+#footer-area-1 .widget {
+	margin-bottom:0;
+}
+#footer-area-1 .formulaire label {
+	color: #fff;
+	display: block;
+	margin-bottom:5px;
+}
+#footer-area-1 .formulaire input[type="text"],
+#footer-area-1 .formulaire input[type="email"] {
+	background: transparent;
+	border: none;
+	border-bottom: solid 1px #fff;
+	color: #fff !important;
+}
+@media screen and (min-width:760px) {
+	#footer-area-1 .formulaire {
+		display:flex;
+	}
+	#footer-area-1 .formulaire label {
+		display: inline;
+	}
+	#footer-area-1 .formulaire input[type="text"],
+	#footer-area-1 .formulaire input[type="email"] {
+		margin: 0 20px 0 10px;
+	}
+	
+}
 
 
 /**************************************************************
@@ -382,6 +413,10 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 }
 .caldera-grid label {
 	font-size:1rem;
+}
+.caldera-grid .soumettre {
+	display: flex;
+	justify-content: center;
 }
 .caldera-grid .alert-success {
 	border: solid 1px var(--vert1);

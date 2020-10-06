@@ -85,8 +85,6 @@ get_header(); ?>
 				get_template_part( 'template-parts/page/home', 'latest-news' );
 			} // Latest News ?>
 
-			<?php echo '<p class="temp-formulaire">formulaire inscription newsletter ici</p>';?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
