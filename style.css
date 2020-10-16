@@ -530,3 +530,11 @@ a.wp-block-button__link:hover, a.wp-block-button__link:focus {
 .wp-block-social-links li.wp-social-link {
 	background-color:var(--vert1) !important;
 }
+
+/**************************************************************
+				Plan du site
+**************************************************************/
+.wrap-html-sitemap li a {
+	color:var(--noir);
+	text-decoration: underline;
+}
