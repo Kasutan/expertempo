@@ -26,10 +26,10 @@ function exp_enqueue_styles() {
 		array( $parent_style ),
 		wp_get_theme()->get('Version')
 	);
-	/*wp_enqueue_script( 'expertempo-scripts',
+	wp_enqueue_script( 'expertempo-scripts',
 		get_stylesheet_directory_uri() . '/expertempo.js',
 		array( 'jquery' )
-	);*/
+	);
 
 }
 /**
